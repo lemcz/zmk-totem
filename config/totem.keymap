@@ -185,9 +185,9 @@
         Nav {
             label = "Nav";
             bindings = <
-                  &kp LG(Q)  &kp LG(W)  &trans      &trans          &kp LG(T)    &kp HOME     &kp PG_DN    &kp PG_UP  &kp END     &kp DEL
-                  &kp LGUI   &kp LALT   &kp LSHFT   &kp LCTRL       &trans       &kp LARW     &kp DARW     &kp UARW   &kp RARW    &kp BKSP
-        &trans    &kp LG(Z)  &kp LG(X)  &kp LG(C)   &kp LG(V)       &trans       &kp HOME     &kp END      &kp HOME   &kp END     &kp ENTER   &kp GRAVE
+                  &kp LG(Q)  &kp LG(W)  &trans      &trans          &kp LG(T)    &trans       &kp PG_DN    &kp PG_UP  &trans     &kp DEL
+                  &kp LGUI   &kp LALT   &kp LSHFT   &kp LCTRL       &trans       &kp LARW     &kp DARW     &kp UARW   &kp RARW   &kp BKSP
+        &trans    &kp LG(Z)  &kp LG(X)  &kp LG(C)   &kp LG(V)       &trans       &trans       &kp END      &kp HOME   &trans     &kp ENTER   &kp GRAVE
                                         &trans      &trans          &trans       &trans       &trans       &none
             >;
         };
